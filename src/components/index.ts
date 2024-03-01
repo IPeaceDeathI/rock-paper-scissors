@@ -1,0 +1,5 @@
+export { default as HeaderComponent } from './HeaderComponent.vue'
+export { default as FooterComponent } from './FooterComponent.vue'
+export { default as GameComponent } from './GameComponent.vue'
+export { default as OriginalGame } from './OriginalGame.vue'
+export { default as BonusGame } from './BonusGame.vue'
