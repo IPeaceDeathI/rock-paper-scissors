@@ -74,7 +74,7 @@ export const useScoreStore = defineStore('score', {
         }
     },
     actions: {
-        makeComputerChoice(): string {
+        makeComputerChoice() {
             this.computer = this.arrOfChoices[Math.floor(Math.random() * this.arrOfChoices.length)]
         },
         incrementScore() {
@@ -92,5 +92,6 @@ export const useScoreStore = defineStore('score', {
         setLastResult(value: string) {
             this.lastResult = value
         }
-    }
+    },
+    persist: true
 })
