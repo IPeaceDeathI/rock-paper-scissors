@@ -247,7 +247,7 @@ const btnClick = function () {
     height: 264px;
     box-shadow: 0px 14px 0px 0px rgba(20, 20, 20, 0.266);
 }
-@media screen and (max-width: 870px) {
+@media all and (max-width: 870px) {
     .btn-paper {
         top: 20%;
         left: 20%;
@@ -286,7 +286,7 @@ const btnClick = function () {
         transform: translate(-50%, -50%);
     }
 }
-@media screen and (max-width: 535px) {
+@media all and (max-width: 535px) {
     .btn-paper {
         top: 20%;
         left: 20%;
@@ -325,7 +325,7 @@ const btnClick = function () {
         transform: translate(-50%, -50%);
     }
 }
-@media screen and (max-width: 350px) {
+@media all and (max-width: 350px) {
     .btn-paper,
     .btn-rock,
     .btn-scissors {

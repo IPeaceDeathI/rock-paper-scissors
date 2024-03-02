@@ -105,10 +105,6 @@ const restartRound = function () {
     color: #fff;
     text-align: center;
 }
-/* .user-choise {
-}
-.computer-choise {
-} */
 .text {
     padding-bottom: 2em;
 }
@@ -124,7 +120,21 @@ const restartRound = function () {
     text-align: center;
     margin: auto 0;
 }
-@media screen and (max-width: 870px) {
+@media all and (max-width: 1030px) {
+    .col {
+        display: none;
+    }
+    .result {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .res-btn {
+        height: 3em !important;
+        font-size: 1em;
+    }
+}
+@media all and (max-width: 870px) {
     .connect {
         display: none;
     }

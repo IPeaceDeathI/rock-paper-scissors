@@ -69,7 +69,7 @@ const text = computed<string>(() => {
     font-size: xx-large;
     line-height: 1.1;
 }
-@media screen and (max-width: 535px) {
+@media all and (max-width: 535px) {
     .wrapper {
         gap: 1em;
         flex-direction: column;
