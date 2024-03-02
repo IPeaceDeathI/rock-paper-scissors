@@ -66,10 +66,11 @@ const restartRound = function () {
 </template>
 
 <style scoped>
-main {
+.container {
+    position: relative;
+    max-width: 1200px;
     height: calc(100vh - 64px - 100px - 20px);
 }
-
 .connect {
     z-index: -1;
     background-color: #101b2c;
@@ -78,17 +79,17 @@ main {
     position: absolute;
 }
 .spock-scissors {
-    top: 44%;
+    top: 34%;
     left: 42%;
     transform: translate(-50%, -50%) rotate(-46deg);
 }
 .scissors-paper {
-    top: 44%;
+    top: 34%;
     left: 58%;
     transform: translate(-50%, -50%) rotate(46deg);
 }
 .paper-rock {
-    top: 70%;
+    top: 60%;
     left: 62%;
     transform: translate(-50%, -50%) rotate(-67deg);
 }
@@ -98,7 +99,7 @@ main {
     transform: translate(-50%, -50%);
 }
 .lizard-spock {
-    top: 70%;
+    top: 60%;
     left: 38%;
     transform: translate(-50%, -50%) rotate(67deg);
 }

@@ -56,10 +56,11 @@ const restartRound = function () {
 </template>
 
 <style scoped>
-main {
+.container {
+    position: relative;
+    max-width: 1200px;
     height: calc(100vh - 64px - 100px - 20px);
 }
-
 .connect {
     z-index: -1;
     background-color: #101b2c;
@@ -68,7 +69,7 @@ main {
     position: absolute;
 }
 .paper-scissors {
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

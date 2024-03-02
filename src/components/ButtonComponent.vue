@@ -139,14 +139,14 @@ const btnClick = function () {
 <style scoped>
 .btn-paper {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 40%;
     transform: translate(-50%, -50%);
     border: 5px solid transparent;
 }
 .btn-scissors {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 60%;
     transform: translate(-50%, -50%);
     border: 5px solid transparent;
@@ -160,14 +160,14 @@ const btnClick = function () {
 }
 .btn-paper.bonus {
     position: absolute;
-    top: 54%;
+    top: 44%;
     left: 65%;
     transform: translate(-50%, -50%);
     border: 5px solid transparent;
 }
 .btn-scissors.bonus {
     position: absolute;
-    top: 35%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 5px solid transparent;
@@ -188,7 +188,7 @@ const btnClick = function () {
 }
 .btn-spock.bonus {
     position: absolute;
-    top: 54%;
+    top: 44%;
     left: 35%;
     transform: translate(-50%, -50%);
     border: 5px solid transparent;
