@@ -124,4 +124,9 @@ const restartRound = function () {
     text-align: center;
     margin: auto 0;
 }
+@media screen and (max-width: 870px) {
+    .connect {
+        display: none;
+    }
+}
 </style>

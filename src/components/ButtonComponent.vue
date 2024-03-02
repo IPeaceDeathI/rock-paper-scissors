@@ -247,4 +247,120 @@ const btnClick = function () {
     height: 264px;
     box-shadow: 0px 14px 0px 0px rgba(20, 20, 20, 0.266);
 }
+@media screen and (max-width: 870px) {
+    .btn-paper {
+        top: 20%;
+        left: 20%;
+    }
+    .btn-rock {
+        top: 70%;
+        left: 50%;
+    }
+    .btn-scissors {
+        top: 20%;
+        left: 80%;
+    }
+    .btn-paper.bonus {
+        top: 44%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-rock.bonus {
+        top: 81%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-scissors.bonus {
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-lizard.bonus {
+        top: 81%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-spock.bonus {
+        top: 44%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 535px) {
+    .btn-paper {
+        top: 20%;
+        left: 20%;
+    }
+    .btn-rock {
+        top: 50%;
+        left: 50%;
+    }
+    .btn-scissors {
+        top: 20%;
+        left: 80%;
+    }
+    .btn-paper.bonus {
+        top: 20%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-rock.bonus {
+        top: 80%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-scissors.bonus {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-lizard.bonus {
+        top: 80%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+    .btn-spock.bonus {
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 350px) {
+    .btn-paper,
+    .btn-rock,
+    .btn-scissors {
+        left: 50%;
+    }
+    .btn-paper {
+        top: 15%;
+    }
+    .btn-rock {
+        top: 50%;
+    }
+    .btn-scissors {
+        top: 85%;
+    }
+    .btn-paper.bonus,
+    .btn-rock.bonus,
+    .btn-scissors.bonus,
+    .btn-spock.bonus,
+    .btn-lizard.bonus {
+        left: 50%;
+    }
+    .btn-scissors.bonus {
+        top: 20%;
+    }
+    .btn-paper.bonus {
+        top: 55%;
+    }
+    .btn-rock.bonus {
+        top: 90%;
+    }
+    .btn-lizard.bonus {
+        top: 125%;
+    }
+    .btn-spock.bonus {
+        top: 160%;
+    }
+}
 </style>
